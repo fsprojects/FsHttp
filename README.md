@@ -36,7 +36,7 @@ Find out more info on the [PXL-Clock Discord Server](https://discord.gg/KDbVdKQh
 
 ## Documentation
 
-* 📖 Please see [FsHttp Documentation](https://schlenkr.github.io/FsHttp) site for detailed documentation.
+* 📖 Please see [FsHttp Documentation](https://fsprojects.github.io/FsHttp) site for detailed documentation.
 * 🧪 In addition, have a look at the [Integration Tests](https://github.com/schlenkr/FsHttp/tree/master/src/Tests) that show various library details.
 
 ### F# syntax example
