@@ -1,15 +1,8 @@
-<div align="center">
-   <h2>🎁 <strong>Win a PXL-Clock - Watch How on YouTube</strong> 🎁</h2>
-   <a href="https://youtu.be/q5-QTpEMGdU"><img src="https://img.youtube.com/vi/q5-QTpEMGdU/0.jpg" alt="Watch the PXL-JAM video" style="width: 60%;"></a>
-   <p>YouTube</p>
-</div>
+# FsHttp
 
-The PXL PAM 2024 is a fun and engaging way to come together and have a joyful time!
-Watch the video or check out our [PXL-JAM repo](https://github.com/CuminAndPotato/PXL-JAM/)!
-
----
-
-# FsHttp [![Build & Tests](https://github.com/schlenkr/FsHttp/actions/workflows/build-and-test.yml/badge.svg?branch=master)](https://github.com/schlenkr/FsHttp/actions/workflows/build-and-test.yml) [![NuGet Badge](https://buildstats.info/nuget/FsHttp)](https://www.nuget.org/packages/FsHttp)
+[![Build & Tests](https://github.com/schlenkr/FsHttp/actions/workflows/build-and-test.yml/badge.svg?branch=master)](https://github.com/schlenkr/FsHttp/actions/workflows/build-and-test.yml)
+[![NuGet](https://img.shields.io/nuget/v/FsHttp.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/FsHttp)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/FsHttp.svg?style=flat-square)](https://www.nuget.org/packages/FsHttp)
 
 <img align="right" width="200" alt='logo' src='https://raw.githubusercontent.com/schlenkr/FsHttp/master/docs/img/logo_big.png' />
 
@@ -20,9 +13,30 @@ FsHttp is a "hackable HTTP client" that offers a legible style for the basics wh
 
 👍 Postman? ❤️ FsHttp! https://youtu.be/F508wQu7ET0
 
+---
+
+## FsHttp ❤️ PXL-Clock
+
+Allow us a bit of advertising for our PXL-Clock! It's a fun device, made with ❤️ - and it's programmable almost as easy as you write requests with FsHttp :)
+
+<p align="center">
+  <img width="340" alt="image" src="https://github.com/user-attachments/assets/4c898f7e-56ae-4a8b-be34-464ad83a5ffb" />
+</p>
+
+Find out more info on the [PXL-Clock Discord Server](https://discord.gg/KDbVdKQh5j) or check out the [PXL-Clock Repo on GitHub](https://github.com/CuminAndPotato/PXL-Clock).
+
+<p align="center">
+  <h3>Join the PXL-Clock Community on Discord</h3>
+  <a href="https://discord.gg/KDbVdKQh5j">
+    <img src="https://img.shields.io/badge/Discord-Join%20Server-blue?style=flat-square&logo=discord" alt="Join Our Discord">
+  </a>
+</p>
+
+---
+
 ## Documentation
 
-* 📖 Please see [FsHttp Documentation](https://schlenkr.github.io/FsHttp) site for detailed documentation.
+* 📖 Please see [FsHttp Documentation](https://fsprojects.github.io/FsHttp) site for detailed documentation.
 * 🧪 In addition, have a look at the [Integration Tests](https://github.com/schlenkr/FsHttp/tree/master/src/Tests) that show various library details.
 
 ### F# syntax example
