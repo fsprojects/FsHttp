@@ -456,31 +456,30 @@ module MultipartElement =
 
 
 
-#if INTERACTIVE
+let res1 =
+    http {
+        POST "https://github.com/CuminAndPotato/PXL-JAM"
+        
+        AcceptLanguage "en"
+        Authorization "credOuter"
+        if true then
+            Authorization "credInner"
 
-http {
-    POST "https://github.com/CuminAndPotato/PXL-JAM"
-    
-    AcceptLanguage "en"
-    Authorization "credOuter"
-    if true then
-        Authorization "credInner"
-
-    body
-    json """ 
-        { 
-            name: "PXL Clock",
-            description: "A Beautiful and Fun Clock",
-            programmingLanguage: [
-                "F#", "C#", "JavaScript", "Python", "TypeScript" ]
-        } 
-    """
-    ContentType "application/json"
-}
-
+        body
+        json """ 
+            { 
+                name: "PXL Clock",
+                description: "A Beautiful and Fun Clock",
+                programmingLanguage: [
+                    "F#", "C#", "JavaScript", "Python", "TypeScript" ]
+            } 
+        """
+        ContentType "application/json"
+    }
 
 
-let res =
+
+let res2 =
     http {
         POST "http"
         Accept "application/json"
@@ -493,11 +492,15 @@ let res =
         filePart "src/FsHttp/Dsl.fs"
 
         textPart "das" "hurz1"
-        ContentTypeMultipart "application/json"
+        if true then
+            ContentTypeMultipart "application/json"
+
+        if true then
+            textPart "das" "hurz1"
+            ContentTypeMultipart "application/json"
 
         // textPart "Lamm" "hurz2"
         // textPart "schrie" "hurz3"
     }
 
 
-#endif
