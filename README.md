@@ -20,8 +20,11 @@ FsHttp is a "hackable HTTP client" that offers a legible style for the basics wh
 Allow us a bit of advertising for our PXL-Clock! It's a fun device, made with ❤️ - and it's programmable almost as easy as you write requests with FsHttp :)
 
 <p align="center">
-  <img width="340" alt="image" src="https://github.com/user-attachments/assets/4c898f7e-56ae-4a8b-be34-464ad83a5ffb" />
+  <a href="https://www.pxlclock.com">
+    <img width="842" height="832" alt="468354531-9b92c9d7-b20b-4316-8104-ac980fa449d5" src="https://github.com/user-attachments/assets/0a5a495d-731b-4f65-ac8f-3719f9b9010a" />
+  </a>
 </p>
+
 
 Find out more info on the [PXL-Clock Discord Server](https://discord.gg/KDbVdKQh5j) or check out the [PXL-Clock Repo on GitHub](https://github.com/CuminAndPotato/PXL-Clock).
 
