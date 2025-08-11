@@ -15,9 +15,9 @@ FsHttp is a "hackable HTTP client" that offers a legible style for the basics wh
 
 ---
 
-## FsHttp ❤️ PXL-Clock
+## FsHttp ❤️ PXL Clock
 
-Allow us a bit of advertising for our PXL-Clock! It's a fun device, made with ❤️ - and it's programmable almost as easy as you write requests with FsHttp :)
+Allow us a bit of advertising for our PXL Clock! It's a fun device, made with ❤️ - and it's programmable almost as easy as you write requests with FsHttp :)
 
 <p align="center">
   <a href="https://www.pxlclock.com">
@@ -26,10 +26,14 @@ Allow us a bit of advertising for our PXL-Clock! It's a fun device, made with �
 </p>
 
 
-Find out more info on the [PXL-Clock Discord Server](https://discord.gg/KDbVdKQh5j) or check out the [PXL-Clock Repo on GitHub](https://github.com/CuminAndPotato/PXL-Clock).
+Find out more:
+
+- On the [PXL Clock Discord Server](https://discord.gg/KDbVdKQh5j)
+- check out the [PXL Clock Repo on GitHub](https://github.com/CuminAndPotato/PXL-Clock)
+- Visit the official [PXL Clock Store](https://www.pxlclock.com)
 
 <p align="center">
-  <h3>Join the PXL-Clock Community on Discord</h3>
+  <h3>Join the PXL Clock Community on Discord</h3>
   <a href="https://discord.gg/KDbVdKQh5j">
     <img src="https://img.shields.io/badge/Discord-Join%20Server-blue?style=flat-square&logo=discord" alt="Join Our Discord">
   </a>
