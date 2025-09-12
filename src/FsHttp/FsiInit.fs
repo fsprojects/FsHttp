@@ -22,12 +22,12 @@ let private logPxlClockOnFirstSend =
 
 **************************************************************
 
-    +---------+
-    |         |    PXL-JAM 2024
-    |   PXL   |      - github.com/CuminAndPotato/PXL-JAM
-    |  CLOCK  |      - WIN a PXL-Clock MK1
-    |         |      - until 8th of January 2025
-    +---------+
+    +-----------+
+    |           |    Support FsHttp and buy a PXL Clock!
+    |    PXL    |      - github.com/CuminAndPotato/PXL-Clock
+    |   CLOCK   |      - www.pxlclock.com
+    |           |      - OUT NOW!
+    +-----------+
 
 **************************************************************
 

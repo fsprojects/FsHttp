@@ -1,10 +1,10 @@
 <Project>
 
   <PropertyGroup>
-    <Version>15.0.1</Version>
+    <Version>15.0.2</Version>
     
     <Authors>Ronald Schlenker</Authors>
-    <Copyright>Copyright 2024 Ronald Schlenker</Copyright>
+    <Copyright>Copyright 2025 Ronald Schlenker</Copyright>
     <PackageTags>http rest HttpClient fetch curl f# c# fSharp</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>logo_small.png</PackageIcon>
@@ -18,26 +18,29 @@
     <PackageReleaseNotes>
 
       **************************************************************
-      
-          +---------+
-          |         |    PXL-JAM 2024
-          |   PXL   |      - github.com/CuminAndPotato/PXL-JAM
-          |  CLOCK  |      - WIN a PXL-Clock MK1
-          |         |      - until 8th of January 2025
-          +---------+
-      
+
+          +-----------+
+          |           |    Support FsHttp and buy a PXL Clock!
+          |    PXL    |      - github.com/CuminAndPotato/PXL-Clock
+          |   CLOCK   |      - www.pxlclock.com
+          |           |      - OUT NOW!
+          +-----------+
+
       **************************************************************
 
 
+      15.0.2
+      - Updated PXL Clock Promo Message - OUT NOW :)
+
       15.0.1
-      - Added PXK-Clock Promo Message on first FSI evaluation (when logs are enabled)
+      - Added PXL Clock Promo Message on first FSI evaluation (when logs are enabled)
 
       15.0.0
       - Added 'enumerable' and 'enumerablePart' as body content functions
       - Removed Utf8StringBufferingStream
 
       14.5.2
-      - Added PXK-Clock Promo Message on first FSI evaluation (when logs are enabled)
+      - Added PXL Clock Promo Message on first FSI evaluation (when logs are enabled)
 
       14.5.1
       - Fixed untracked bug: using config_useBaseUrl as http template won't crash when printing unfinished requests
