@@ -459,7 +459,7 @@ module MultipartElement =
 #if INTERACTIVE
 
 http {
-    POST "https://github.com/CuminAndPotato/PXL-JAM"
+    POST "https://github.com/CuminAndPotato/PXL-Clock"
     
     AcceptLanguage "en"
     Authorization "credOuter"
