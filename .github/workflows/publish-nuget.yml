@@ -20,5 +20,5 @@ jobs:
       
       - name: nuget publish
         env:
-            nuget_push: ${{ secrets.NUGET_API_KEY }}
+            nuget_fshttp: ${{ secrets.NUGET_API_KEY }}
         run: dotnet fsi build.fsx publish
