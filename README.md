@@ -90,10 +90,10 @@ await Http
 
 As this is a recurring issue:
 
-FsHttp emits console logs per default. They can be disabled out like so:
+FsHttp emits console logs per default. They can be disabled by putting this line before any request is made:
 
 ```fsharp
-Fsi.disableDebugLogs ()
+FsHttp.Fsi.disableDebugLogs ()
 ```
 
 
