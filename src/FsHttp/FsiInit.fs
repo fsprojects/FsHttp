@@ -23,16 +23,17 @@ let private logPxlClockOnFirstSend =
 **************************************************************
 
     +-----------+
-    |           |    Support FsHttp and buy a PXL Clock!
-    |    PXL    |      - github.com/CuminAndPotato/PXL-Clock
-    |   CLOCK   |      - www.pxlclock.com
-    |           |      - OUT NOW!
-    +-----------+
+    |           |    *** ADVERTISEMENT ***
+    |    PXL    |    Support FsHttp and buy a PXL Clock!  
+    |   CLOCK   |      - github.com/CuminAndPotato/PXL-Clock
+    |           |      - www.pxlclock.com
+    +-----------+      - OUT SOON
 
 **************************************************************
 
     "
-            printfn "%s" msg
+            // printfn "%s" msg
+            ()
 
 // This seems like a HACK, but there shouldn't be the requirement of referencing FCS in FSI.
 let doInit () =
