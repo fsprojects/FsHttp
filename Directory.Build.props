@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <Version>15.0.2</Version>
+    <Version>15.0.3</Version>
     
     <Authors>Ronald Schlenker</Authors>
     <Copyright>Copyright 2025 Ronald Schlenker</Copyright>
@@ -17,17 +17,8 @@
 
     <PackageReleaseNotes>
 
-      **************************************************************
-
-          +-----------+
-          |           |    Support FsHttp and buy a PXL Clock!
-          |    PXL    |      - github.com/CuminAndPotato/PXL-Clock
-          |   CLOCK   |      - www.pxlclock.com
-          |           |      - OUT NOW!
-          +-----------+
-
-      **************************************************************
-
+      15.0.3
+      - Removed PXL Clock Promo Message
 
       15.0.2
       - Updated PXL Clock Promo Message - OUT NOW :)
