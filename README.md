@@ -86,6 +86,17 @@ await Http
     .SendAsync();
 ```
 
+### FSI / Non-FSI Scenarios
+
+As this is a recurring issue:
+
+FsHttp emits console logs per default. They can be disabled out like so:
+
+```fsharp
+Fsi.disableDebugLogs ()
+```
+
+
 ### Release Notes / Migrating to new versions
 
 * See https://www.nuget.org/packages/FsHttp#release-body-tab
