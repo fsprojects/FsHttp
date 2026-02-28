@@ -16,7 +16,7 @@ if [ -d ./.fsdocs ]; then
 fi
 
 dotnet tool restore
-dotnet build ./src/FsHttp/FsHttp.fsproj -c Release -f net8.0
+dotnet build ./src/FsHttp/FsHttp.fsproj -c Release -f net6.0
 
 # what a hack...
 if [ -z "$1" ]; then
@@ -29,7 +29,7 @@ dotnet fsdocs \
     $mode \
     --clean \
     --sourcefolder ./src \
-    --properties Configuration=Release TargetFramework=net8.0 \
+    --properties Configuration=Release TargetFramework=net6.0 \
     --sourcerepo https://github.com/fsprojects/FsHttp/blob/master/src \
     --parameters root /FsHttp/ \
     --output ./.docsOutput \
