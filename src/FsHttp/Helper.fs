@@ -94,7 +94,7 @@ module Stream =
 
     let copyToCallbackAsync (target: Stream) callback (source: Stream) =
         async {
-            let buffer = Array.create 81920 (byte 0)
+            let buffer = Array.create 81920 (byte 0) // 80KB matches .NET's Stream.CopyToAsync default buffer size
             let logTimeSpan = TimeSpan.FromSeconds 1.5
             let mutable continueLooping = true
             let mutable overallBytesCount = 0
