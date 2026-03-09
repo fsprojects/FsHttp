@@ -1,9 +1,7 @@
-# FsHttp Memory 2026-03-09
+# FsHttp Repo Assist Memory
 
-Last run: 22854159193. Tasks: 8,7,11.
-Monthly issue: "[Repo Assist] Monthly Activity 2026-03" open.
-My PR: repo-assist/perf-stream-buffer-2026-03 (Helper.fs perf, draft).
-Nudged: PR #95 (jkone27) 2026-03-09.
-Open dependabot PRs: #209,#208,#204. Stale: #95.
-Backlog: 17 unlabelled issues, 24 open issues uninvestigated.
+Last run: 22860662425. Command mode: comment on #198.
+Monthly issue #215: open (2026-03).
+Open Dependabot PRs: #209,#208,#204. Stale PR: #95 (nudged).
 Build: dotnet restore && dotnet build
+Comments: #198 (port exhaustion), #206 (CE2 PoC).
