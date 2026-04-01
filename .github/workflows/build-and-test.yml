@@ -22,6 +22,11 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.x
+          
+      - name: Setup .NET 6
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 6.x
 
       - name: Build and run tests
         run: dotnet fsi build.fsx test

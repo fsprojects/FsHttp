@@ -26,6 +26,7 @@
     <Compile Include="FsiInit.fs" />
     <Compile Include="Dsl.fs" />
     <Compile Include="Dsl.CE.fs" />
+    <Compile Include="Dsl.CE2.fs" />
     <Compile Include="Operators.fs" />
     <Compile Include="Extensions.fs" />
   </ItemGroup>

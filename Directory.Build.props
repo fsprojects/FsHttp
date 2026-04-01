@@ -1,10 +1,10 @@
 <Project>
 
   <PropertyGroup>
-    <Version>14.5.1</Version>
+    <Version>15.0.3</Version>
     
     <Authors>Ronald Schlenker</Authors>
-    <Copyright>Copyright 2024 Ronald Schlenker</Copyright>
+    <Copyright>Copyright 2025 Ronald Schlenker</Copyright>
     <PackageTags>http rest HttpClient fetch curl f# c# fSharp</PackageTags>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageIcon>logo_small.png</PackageIcon>
@@ -16,9 +16,22 @@
     <FsDocsReleaseNotesLink>https://www.nuget.org/packages/FsHttp#release-body-tab</FsDocsReleaseNotesLink>
 
     <PackageReleaseNotes>
+
+      15.0.3
+      - Removed PXL Clock Promo Message
+
+      15.0.2
+      - Updated PXL Clock Promo Message - OUT NOW :)
+
+      15.0.1
+      - Added PXL Clock Promo Message on first FSI evaluation (when logs are enabled)
+
       15.0.0
       - Added 'enumerable' and 'enumerablePart' as body content functions
       - Removed Utf8StringBufferingStream
+
+      14.5.2
+      - Added PXL Clock Promo Message on first FSI evaluation (when logs are enabled)
 
       14.5.1
       - Fixed untracked bug: using config_useBaseUrl as http template won't crash when printing unfinished requests

@@ -13,20 +13,40 @@ type InitResult =
 
 let mutable private state = Uninitialized
 
+let private logPxlClockOnFirstSend =
+    let mutable firstSend = true
+    fun () ->
+        if firstSend then
+            firstSend <- false
+            let msg = @"
+
+**************************************************************
+
+    +-----------+
+    |           |    *** ADVERTISEMENT ***
+    |    PXL    |    Support FsHttp and buy a PXL Clock!  
+    |   CLOCK   |      - github.com/CuminAndPotato/PXL-Clock
+    |           |      - www.pxlclock.com
+    +-----------+      - OUT SOON
+
+**************************************************************
+
+    "
+            // printfn "%s" msg
+            ()
+
 // This seems like a HACK, but there shouldn't be the requirement of referencing FCS in FSI.
 let doInit () =
     if state <> Uninitialized then
         state
     else
-
         let fsiAssemblyName = "FSI-ASSEMBLY"
-
         let isInteractive =
             // This hack is indeed one (see https://fsharp.github.io/fsharp-compiler-docs/fsi-emit.html)
             AppDomain.CurrentDomain.GetAssemblies()
-            |> Array.exists (fun asm -> (*asm.IsDynamic &&*)
-                asm.GetName().Name.StartsWith(fsiAssemblyName, StringComparison.Ordinal)
-            )
+            |> Array.map (fun asm -> asm.GetName().Name)
+            |> Array.exists (fun asmName -> (*asm.IsDynamic &&*)
+                asmName.StartsWith(fsiAssemblyName, StringComparison.Ordinal))
 
         state <-
             try
@@ -51,7 +71,9 @@ let doInit () =
                                 // see #121: It's important to not touch the logDebugMessages
                                 // value when it was already set before this init function was called.
                                 match Fsi.logDebugMessages with
-                                | None -> Fsi.enableDebugLogs ()
+                                | None ->
+                                    do logPxlClockOnFirstSend ()
+                                    Fsi.enableDebugLogs ()
                                 | _ -> ()
 
                             let addPrinter (f: 'a -> string) =
@@ -80,4 +102,5 @@ let doInit () =
 
         state
 
-let init () = doInit () |> ignore
+let init () =
+    doInit () |> ignore

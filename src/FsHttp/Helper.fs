@@ -26,9 +26,7 @@ type StringBuilder with
 
     member sb.appendSection(s: string) =
         sb.appendLine s
-
-        String([ 0 .. s.Length ] |> List.map (fun _ -> '-') |> List.toArray)
-        |> sb.appendLine
+        String('-', s.Length + 1) |> sb.appendLine
 
 [<RequireQualifiedAccess>]
 module Map =
@@ -96,7 +94,7 @@ module Stream =
 
     let copyToCallbackAsync (target: Stream) callback (source: Stream) =
         async {
-            let buffer = Array.create 1024 (byte 0)
+            let buffer = Array.create 81920 (byte 0) // 80KB matches .NET's Stream.CopyToAsync default buffer size
             let logTimeSpan = TimeSpan.FromSeconds 1.5
             let mutable continueLooping = true
             let mutable overallBytesCount = 0
