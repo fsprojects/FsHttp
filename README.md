@@ -45,6 +45,26 @@ FsHttp is a "hackable HTTP client" that offers a legible style for the basics wh
 
 ---
 
+## FsHttp Studio - A VS Code Extension for FsHttp
+
+👍 Postman? ❤️ FsHttp Studio!
+
+Check out [FsHttp.Studio](https://github.com/tw0po1nt/FsHttp.Studio) by [@tw0po1nt](https://github.com/tw0po1nt) - a wonderful VS Code extension that takes the "FsHttp as a Postman alternative" idea to the next level:
+
+* A "Run request" button right above every `http { }` block in your F# scripts
+* Rich response rendering directly in the editor: JSON as collapsible trees, images inline, HTML as rendered pages
+* Status code, timing and response size at a glance
+
+<p align="center">
+  <a href="https://github.com/tw0po1nt/FsHttp.Studio">
+    <img alt="FsHttp.Studio demo" src="https://raw.githubusercontent.com/tw0po1nt/FsHttp.Studio/main/media/demo.gif" />
+  </a>
+</p>
+
+It's available on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=twopoint.fshttp-studio). A big thank you to @tw0po1nt for putting love and effort into making F# and FsHttp even more accessible and fun to use :)
+
+---
+
 ## Documentation
 
 * 📖 Please see [FsHttp Documentation](https://fsprojects.github.io/FsHttp) site for detailed documentation.
