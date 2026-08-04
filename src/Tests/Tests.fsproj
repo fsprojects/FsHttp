@@ -35,7 +35,7 @@
     <Compile Include="Misc.fs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="FsUnit" Version="6.0.1" />
+    <PackageReference Include="FsUnit" Version="7.1.1" />
     <PackageReference Include="NUnit" Version="4.0.1" />
     <PackageReference Include="FSharp.SystemTextJson" Version="1.3.13" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
