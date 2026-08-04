@@ -24,6 +24,6 @@
   <ItemGroup>
     <ProjectReference Include="..\FsHttp\FsHttp.fsproj" />
     <!-- See comments for FSharp.Core in FsHttp.fsproj -->
-    <PackageReference Include="FSharp.Core" Version="5.0.2" ExcludeAssets="contentfiles" />
+    <PackageReference Include="FSharp.Core" Version="10.1.302" ExcludeAssets="contentfiles" />
   </ItemGroup>
 </Project>

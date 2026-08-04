@@ -47,6 +47,6 @@
         Removal triggers issues in dotnet publish, e.g. for Lambda projects
         Also avoids Rider search finding stuff in FSharp.Core.xml
     -->
-    <PackageReference Include="FSharp.Core" Version="5.0.2" ExcludeAssets="contentfiles" />
+    <PackageReference Include="FSharp.Core" Version="10.1.302" ExcludeAssets="contentfiles" />
   </ItemGroup>
 </Project>
